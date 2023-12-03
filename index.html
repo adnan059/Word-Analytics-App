@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Word Analytics App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Word Analytics App</h1>
+      <a
+        href="https://github.com/adnan059/JavaScript-101/blob/main/A5/main.js"
+        target="_blank"
+        >Click Here to See the Source Code</a
+      >
+    </header>
+
+    <section class="container">
+      <textarea
+        name="inputText"
+        id="inputText"
+        cols="30"
+        rows="10"
+        placeholder="Write Something..."
+      ></textarea>
+
+      <div class="stats">
+        <div class="statBox">
+          <div class="num num-words">0</div>
+          <p>Words</p>
+        </div>
+
+        <div class="statBox">
+          <div class="num num-characters">0</div>
+          <p>Characters</p>
+        </div>
+
+        <div class="statBox">
+          <div class="num num-twitter">250</div>
+          <p>Twitter</p>
+        </div>
+
+        <div class="statBox">
+          <div class="num num-linkedin">320</div>
+          <p>Linkedin</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="warning twitter-warning">
+      <p>Twitter content character limit reached!</p>
+    </div>
+
+    <div class="warning linkedin-warning">
+      <p>Linkedin content character limit reached!</p>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
